@@ -43,7 +43,7 @@ const Skill = () => {
     },
   };
   return (
-    <section className="p-5">
+    <section className="p-5 bg-white mt-4 rounded-xl">
       <div className="grid gap-20 grid-cols-1 min-sm:grid-cols-1 min-md:grid-cols-2">
         <motion.div
           initial={{ opacity: 0, scale: 0 }}

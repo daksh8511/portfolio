@@ -8,7 +8,7 @@ import about2 from "/assets/about2.png";
 
 const About = () => {
   return (
-    <section className="p-5 py-15 grid grid-cols-1 space-y-20">
+    <section className="p-5 py-15 grid grid-cols-1 space-y-20 bg-white mt-4 rounded-xl">
       <motion.div 
       initial={{ opacity: 0, x: -100 }}
       whileInView={{ opacity: 1, x: 0 }}

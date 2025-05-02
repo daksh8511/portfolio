@@ -7,7 +7,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Hero = () => {
   return (
-    <section className="p-5 text-center overflow-hidden">
+    <section className="p-5 text-center overflow-hidden bg-white rounded-xl">
       <Navbar />
       <motion.h2
         initial={{ opacity: 0, x: -500 }}

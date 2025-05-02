@@ -4,7 +4,7 @@ import contact from "/assets/contact.jpg";
 
 const Contact = () => {
   return (
-    <section className="p-5">
+    <section className="p-5 bg-white mt-4 rounded-xl">
       <div className="grid grid-cols-2 gap-20">
         <div className="ms-auto">
           <h5>Daksh Sathwara</h5>

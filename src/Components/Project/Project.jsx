@@ -6,7 +6,7 @@ import third from "/assets/project/third.jpg";
 
 const Project = () => {
   return (
-    <section className="p-5">
+    <section className="p-5 bg-white mt-4 rounded-xl">
       <h2 className="text-center text-6xl my-20">Projects</h2>
 
       <div className="space-y-20">
