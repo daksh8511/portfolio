@@ -41,8 +41,8 @@ const Navbar = () => {
         >
           <li onClick={() => scrollToSection('home')}>Home</li>
           <li onClick={() => scrollToSection('about')}>About Us</li>
-          <li onClick={() => scrollToSection('work-experience')}>Work Experience</li>
           <li onClick={() => scrollToSection('skills')}>Skills</li>
+          <li onClick={() => scrollToSection('work-experience')}>Work Experience</li>
           <li onClick={() => scrollToSection('project')}>Project</li>
           <li onClick={() => scrollToSection('contact')}>Contact</li>
         </motion.ul>
@@ -82,9 +82,9 @@ const Navbar = () => {
           >
             <li onClick={() => scrollToSection('home')}>Home</li>
             <li onClick={() => scrollToSection('about')}>About Us</li>
-            <li onClick={() => scrollToSection('work-experience')}>Work Experience</li>
             <li onClick={() => scrollToSection('skills')}>Skills</li>
-            <li onClick={() => scrollToSection('project')}>Project</li>
+            <li onClick={() => scrollToSection('work-experience')}>Work Experience</li>
+            <li onClick={() => scrollToSection('project')}>Project</li> 
             <li onClick={() => scrollToSection('contact')}>Contact</li>
           </motion.ul>
         )}

@@ -6,13 +6,15 @@ import weather from "/assets/project/weather.png";
 
 import styled from "styled-components";
 
+import { motion } from "motion/react";
+
 const Project = () => {
   return (
     <section id="project" className="p-5 bg-white mt-4 rounded-xl">
       <h2 className="text-center text-6xl my-20">Projects</h2>
 
       <div className="space-y-20">
-        <div>
+        <motion.div initial={{opacity :0}} whileInView={{opacity:1}} transition={{delay : 0.4, duration:0.4}}>
             <BoxWrapper className="grid grid-cols-1 min-md:grid-cols-2 min-lg:grid-cols-2 gap-20 items-center">
               <img src={coffeeCode} alt="" />
               <div>
@@ -32,9 +34,9 @@ const Project = () => {
                 </a>
               </div>
             </BoxWrapper>
-        </div>
+        </motion.div>
 
-        <div>
+        <motion.div initial={{opacity :0}} whileInView={{opacity:1}} transition={{delay : 0.4, duration:0.4}}>
             <BoxWrapper className="grid grid-cols-1 min-md:grid-cols-2 min-lg:grid-cols-2 gap-20 items-center">
               <div>
                 <h2 className="text-3xl font-semibold mb-2">
@@ -53,9 +55,9 @@ const Project = () => {
 
               <img src={horizonui} alt="" />
             </BoxWrapper>
-        </div>
+        </motion.div>
 
-        <div>
+        <motion.div initial={{opacity :0}} whileInView={{opacity:1}} transition={{delay : 0.4, duration:0.4}}>
             <BoxWrapper className="grid grid-cols-1 min-md:grid-cols-2 min-lg:grid-cols-2 gap-20 items-center">
               <img src={weather} alt="" />
               <div>
@@ -72,7 +74,7 @@ const Project = () => {
                 </a>
               </div>
             </BoxWrapper>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

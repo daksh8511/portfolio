@@ -11,11 +11,12 @@ import react from "/assets/skills/react.svg";
 import bootstrap from "/assets/skills/bootstrap.svg";
 import tailwind from "/assets/skills/tailwind.svg";
 import github from "/assets/skills/github.svg";
+import mui from '/assets/skills/mui.png'
 import { easeInOut } from "motion";
 import styled from "styled-components";
 
 const Skill = () => {
-  const data = [html, css, javascript, react, bootstrap, tailwind, github];
+  const data = [html, css, javascript, react, bootstrap, tailwind, github, mui];
 
   const mainContainer = {
     hidden: { opacity: 0, y: 20 },
