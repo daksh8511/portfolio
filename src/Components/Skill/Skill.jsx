@@ -7,16 +7,22 @@ import skills from "/assets/skills.jpg";
 import html from "/assets/skills/html.svg";
 import css from "/assets/skills/css.svg";
 import javascript from "/assets/skills/javascript.svg";
-import react from "/assets/skills/react.svg";
 import bootstrap from "/assets/skills/bootstrap.svg";
 import tailwind from "/assets/skills/tailwind.svg";
 import github from "/assets/skills/github.svg";
 import mui from '/assets/skills/mui.png'
+
+import mongodb from '/assets/skills/mongodb.png'
+import express from '/assets/skills/expressjs.png'
+import react from "/assets/skills/react.svg";
+import node from "/assets/skills/nodejs.svg";
+
+
 import { easeInOut } from "motion";
 import styled from "styled-components";
 
 const Skill = () => {
-  const data = [html, css, javascript, react, bootstrap, tailwind, github, mui];
+  const data = [html, css, javascript, bootstrap, tailwind, github, mui, mongodb, express, react, node];
 
   const mainContainer = {
     hidden: { opacity: 0, y: 20 },
