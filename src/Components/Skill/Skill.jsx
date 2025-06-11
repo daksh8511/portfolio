@@ -15,7 +15,7 @@ import mui from '/assets/skills/mui.png'
 import mongodb from '/assets/skills/mongodb.png'
 import express from '/assets/skills/expressjs.png'
 import react from "/assets/skills/react.svg";
-import node from "/assets/skills/nodejs.svg";
+import node from "/assets/skills/nodejs.png";
 
 
 import { easeInOut } from "motion";
